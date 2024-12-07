@@ -37,6 +37,7 @@ export function UnityWebGL() {
             (progressBar as HTMLElement).style.width = `${100 * progress}%`;
           }
         }).then((unityInstance: any) => {
+          window.unityInstance = unityInstance;
           const loadingBar = document.querySelector("#unity-loading-bar");
           if (loadingBar) {
             loadingBar.remove();

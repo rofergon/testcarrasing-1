@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Car, Gauge, Battery } from 'lucide-react';
 import { Progress } from '@/components/ui/progress';
 import {
