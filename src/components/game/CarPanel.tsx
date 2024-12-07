@@ -1,12 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Car, Gauge, Battery } from 'lucide-react';
 import { Progress } from '@/components/ui/progress';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
 
 export function CarPanel() {
   return (
